@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 
 app.get('/test',(req, res) => {
  res.send('hello world');
-}
+});
 // Start the server
 app.listen(port, () => {
   console.log(`Server is listening at http://localhost:${port}`);
