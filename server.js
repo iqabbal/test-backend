@@ -8,6 +8,9 @@ app.get('/', (req, res) => {
   res.send('makayna ta 9alwa ach baghi tchoof');
 });
 
+app.get('/test',(req, res) => {
+ res.send('hello world');
+}
 // Start the server
 app.listen(port, () => {
   console.log(`Server is listening at http://localhost:${port}`);
